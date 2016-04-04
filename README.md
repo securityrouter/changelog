@@ -4,6 +4,20 @@ New major versions (for example 3.5 which is based on OpenBSD 5.7) often contain
 
 There is an [RSS feed](https://github.com/halonsecurity/securityrouter.org/releases.atom) available.
 
+## 3.2-r1
+Released on 2014-01-08
+- **`New`** Added `x-superuser` [login class](http://sr.wiki.halon.se/wiki/Users)
+- **`Imp`** Added [skeleton file](http://sr.wiki.halon.se/wiki/Skeleton_files) for the DHCP server
+- **`Imp`** Support running [router solicitation](http://sr.wiki.halon.se/wiki/IPv6), syslog and NTP in [routing domains](http://sr.wiki.halon.se/wiki/Routing_domains)
+- **`Imp`** Allowed web terminal to poll [backend](http://sr.wiki.halon.se/wiki/Backend) even when browser tab is in background
+- **`Imp`** Added more IPv6 auto-configuration settings to web administration
+- **`Imp`** Strip last dot from DHCPv6 search domain
+- **`Imp`** Various minor improvements
+- **`Bug`** Don't announce SLAAC prefixes when running a DHCPv6 server
+- **`Bug`** Resolved issue when filtering logs based on firewall label on amd64
+- **`Bug`** Resolved ping-from-self through NAT issue
+- **`Bug`** Resolved issue when moving VLANs from an unconfigured interface
+
 ## 3.2
 Released on 2013-11-08
 - **`New`** Based on OpenBSD 5.4
