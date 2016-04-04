@@ -4,6 +4,13 @@ New major versions (for example 3.5 which is based on OpenBSD 5.7) often contain
 
 There is an [RSS feed](https://github.com/halonsecurity/securityrouter.org/releases.atom) available.
 
+## 3.0-p15
+Released on 2012-06-11
+- **`Imp`** Support for ne (NE1000) interfaces (used by Parallels Desktop)
+- **`Imp`** Changed the fail-path when activating clustering
+- **`Bug`** Error on first page for un-configured interfaces resolved
+- **`Bug`** Issue when duplicating rules on the firewall page resolved
+
 ## 3.0-p14
 Released on 2012-06-08
 - **`New`** Introduced cluster support using SSL certificates
