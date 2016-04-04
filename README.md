@@ -4,6 +4,15 @@ New major versions (for example 3.5 which is based on OpenBSD 5.7) often contain
 
 There is an [RSS feed](https://github.com/halonsecurity/securityrouter.org/releases.atom) available.
 
+## 3.0-p32
+Released on 2013-05-31
+- **`Imp`** PPTP proxy timeout increased
+- **`Imp`** Load balancer page lists available listen addresses
+- **`Imp`** Internet failover doesn't require load balancer license
+- **`Imp`** Terminal emulator page input improved
+- **`Bug`** Load balancer page didn't handle multiple listeners and SSL
+- **`Bug`** License page's link to renewals didn't work
+
 ## 3.0-p31
 Released on 2013-05-21
 - **`Imp`** System disks are grown to disk's size (CF, etc) into new data partition
