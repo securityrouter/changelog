@@ -4,6 +4,14 @@ New major versions (for example 3.5 which is based on OpenBSD 5.7) often contain
 
 There is an [RSS feed](https://github.com/halonsecurity/securityrouter.org/releases.atom) available.
 
+## 3.1-p4
+Released on 2013-08-07
+- **`Imp`** Support new HSR-1200 series hardware
+- **`Bug`** Support non-standard gateway IP in update firmware
+- **`Bug`** No longer consume VMware channels without vApp
+- **`Bug`** Handle configuration without groups on firewall page
+- **`Bug`** Various minor bugs fixed
+
 ## 3.1-p3
 Released on 2013-07-29
 - **`New`** Network setup guide in OVF (VMware vCenter)
