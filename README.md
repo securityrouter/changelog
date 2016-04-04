@@ -4,6 +4,14 @@ New major versions (for example 3.5 which is based on OpenBSD 5.7) often contain
 
 There is an [RSS feed](https://github.com/halonsecurity/securityrouter.org/releases.atom) available.
 
+## 3.0-p28
+Released on 2013-02-25
+- **`New`** New CLI command `replace-swap` in `configure`
+- **`Imp`** Support for Dell R320
+- **`Imp`** Edit buttons in tables
+- **`Imp`** Support `rdomain` and `proxy-arp` in cluster activation
+- **`Imp`** Other minor improvements
+
 ## 3.0-p27
 Released on 2013-02-20
 - **`Imp`** Support for more Broadcom NICs
