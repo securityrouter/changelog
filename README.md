@@ -4,6 +4,20 @@ New major versions (for example 3.5 which is based on OpenBSD 5.7) often contain
 
 There is an [RSS feed](https://github.com/halonsecurity/securityrouter.org/releases.atom) available.
 
+## 3.0-p25
+Released on 2012-12-14
+- **`New`** Microsoft Hyper-V support
+- **`New`** Ability to use additional disk as storage for logs, etc
+- **`New`** Ability to update with verification using storage disk
+- **`Imp`** Improved performance during commit/test
+- **`Imp`** Question on drain/flush load balancer node pausing
+- **`Imp`** Changed Subversion format to FSFS
+- **`Imp`** Improved loading time on firewall page with many rules
+- **`Imp`** Overall improvements
+- **`Bug`** IP ranges in macros on firewall page
+- **`Bug`** Load balancer wizard didn't work with missing statement
+- **`Note`** Reserved routing domain 239-255
+
 ## 3.0-p24
 Released on 2012-11-21
 - **`New`** The `proxy-arp` makes it possible to use [LAN network in VPN server](http://sr.wiki.halon.se/wiki/VPN_server#Proxy_ARP)
