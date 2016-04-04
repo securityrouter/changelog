@@ -4,6 +4,13 @@ New major versions (for example 3.5 which is based on OpenBSD 5.7) often contain
 
 There is an [RSS feed](https://github.com/halonsecurity/securityrouter.org/releases.atom) available.
 
+## 3.1-p1
+Released on 2013-07-15
+- **`New`** New IKE debugging tool (isakmpctl)
+- **`Imp`** Support for VIA temperature sensors
+- **`Imp`** Perl modules needed by pkg_add included
+- **`Bug`** Cluster failed to detect successful synchronizations
+
 ## 3.1
 Released on 2013-07-10
 - **`New`** Based on OpenBSD 5.3 (with patches from head)
