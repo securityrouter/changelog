@@ -4,6 +4,26 @@ New major versions (for example 3.5 which is based on OpenBSD 5.7) often contain
 
 There is an [RSS feed](https://github.com/halonsecurity/securityrouter.org/releases.atom) available.
 
+## 3.1-p7
+Released on 2013-11-01
+- **`New`** Buy feature licenses from within product's interface
+- **`New`** Support for new HSR-603 model
+- **`New`** Support for [reset](http://sr.wiki.halon.se/wiki/Recovery) button on HSR-1204 and ALIX
+- **`Imp`** Real-time decrypted IKE packets (isakmpctl capture)
+- **`Imp`** Simplified and unified DHCP page
+- **`Imp`** Support temperature sensors in ALIX
+- **`Imp`** Firewall supports interface addressing and DNS in DHCP/BGP setups
+- **`Imp`** Use bidirectional IPsec flows by default
+- **`Imp`** Better validation of FQDNs as DHCP hosts
+- **`Imp`** Make HTTP/SSH servers and pflow support [routing domains](http://sr.wiki.halon.se/wiki/Routing_domains)
+- **`Imp`** Require both sender and server for pflow interfaces
+- **`Imp`** Various minor improvements
+- **`Bug`** HTTP server didn't respect rsa-key and x509-certificate
+- **`Bug`** Scrolling didn't always freeze
+- **`Bug`** SSL was checked when adding new load balancer listeners
+- **`Bug`** Couldn't type @ in web terminal
+- **`Bug`** Do not create sessions for unauthorized web admin clients
+
 ## 3.1-p6
 Released on 2013-09-02
 - **`Bug`** Management interfaces couldn't be disabled on administration page
