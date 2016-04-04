@@ -4,6 +4,14 @@ New major versions (for example 3.5 which is based on OpenBSD 5.7) often contain
 
 There is an [RSS feed](https://github.com/halonsecurity/securityrouter.org/releases.atom) available.
 
+## 3.0-p29
+Released on 2013-03-11
+- **`New`** New model VSR-Lite available for purchase
+- **`New`** Support for PC Engine's ALIX system boards
+- **`Imp`** VPN servers support search domain and routes for Apple OSX and iOS clients
+- **`Imp`** Other minor improvements
+- **`Bug`** dhsyncd would fail to start if any carp interface was down
+
 ## 3.0-p28
 Released on 2013-02-25
 - **`New`** New CLI command `replace-swap` in `configure`
