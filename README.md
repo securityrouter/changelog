@@ -4,6 +4,10 @@ New major versions (for example 3.5 which is based on OpenBSD 5.7) often contain
 
 There is an [RSS feed](https://github.com/halonsecurity/securityrouter.org/releases.atom) available.
 
+## 3.0-p12
+Released on 2012-03-20
+- **`New`** Hardware detection for Halon HSR-1000
+
 ## 3.0-p11
 Released on 2012-03-16
 - **`New`** [Load balancer](http://wiki.halon.se/SR/Load_balancing) user interface
