@@ -4,6 +4,14 @@ New major versions (for example 3.5 which is based on OpenBSD 5.7) often contain
 
 There is an [RSS feed](https://github.com/halonsecurity/securityrouter.org/releases.atom) available.
 
+## 3.1-p2
+Released on 2013-07-24
+- **`Imp`** Restructured CLI menu
+- **`Imp`** Subscription licenses are more tolerant to connectivity issues
+- **`Imp`** Faster boot by disabling floppy drives in kernel
+- **`Imp`** Minor web administration improvements
+- **`Bug`** Could generate invalid VPN server configuration, regression
+
 ## 3.1-p1
 Released on 2013-07-15
 - **`New`** New IKE debugging tool (isakmpctl)
