@@ -4,6 +4,21 @@ New major versions (for example 3.5 which is based on OpenBSD 5.7) often contain
 
 There is an [RSS feed](https://github.com/halonsecurity/securityrouter.org/releases.atom) available.
 
+## 3.6
+Released on 2015-11-20
+- **`New`** Based on [OpenBSD 5.8](http://www.openbsd.org/58.html)
+ - New MPLS pseudowire driver [`mpw`](http://www.openbsd.org/cgi-bin/man.cgi/OpenBSD-current/man4/mpw.4?query=mpw&amp;sec=4)
+ - Many improvements to [BGP](http://securityrouter.org/wiki/BGP), [OSPF](http://securityrouter.org/wiki/OSPF) and LDP (MPLS)
+ - The same network range can now be assigned to multiple interfaces
+ - MTU of VLAN devices can now be set independently from the parent interface's MTU
+ - Jumbo frames on PC Engines' [APU](http://www.pcengines.ch/apu.htm) and Halon's [HSR-603](http://securityrouter.org/wiki/File:Hsr-603.png)
+ - Support for the NX bit on i386 for better W^X enforcement
+ - Support for new hardware, and improved network drivers
+- **`New`** [VPLS](https://github.com/rwestphal/openbsd-ldpd/wiki/VPLS-basic-test-setup) (layer 2) MPLS support
+- **`New`** Interface [route priority](http://securityrouter.org/wiki/Route_priority)
+- **`Imp`** Uses `AUTOCONF6` for [router solicitation](http://securityrouter.org/wiki/IPv6#DHCPv6_client_and_router_solicitation) instead of `rtsold`
+- **`Dep`** The default Diffie-Hellman group from IKEv1 has been changed to modp3072 (15)
+
 ## 3.5-r1
 Released on 2015-07-30
 - **`New`** Firewall ([pf.conf](http://www.openbsd.org/cgi-bin/man.cgi/OpenBSD-current/man5/pf.conf.5?query=pf%2econf)) editor got support for new syntax such as prio, queue, etc
