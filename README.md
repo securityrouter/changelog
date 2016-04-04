@@ -4,6 +4,16 @@ New major versions (for example 3.5 which is based on OpenBSD 5.7) often contain
 
 There is an [RSS feed](https://github.com/halonsecurity/securityrouter.org/releases.atom) available.
 
+## 3.0-p33
+Released on 2013-06-28
+- **`Imp`** Load balancer (relayd) performance improved
+- **`Imp`** Graphs page display load balancer names
+- **`Imp`** IPsec IKE tunnels page displays DH group number
+- **`Imp`** Firewall page removes outer brackets on lists without space
+- **`Bug`** Load balancer page didn't display correctly if name ended with a digit
+- **`Bug`** Load balancer (relayd) didn't support more than 20 relays
+- **`Bug`** Cluster discovery (hdpd) don't exit when missing serial
+
 ## 3.0-p32
 Released on 2013-05-31
 - **`Imp`** PPTP proxy timeout increased
