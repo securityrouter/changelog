@@ -4,6 +4,24 @@ New major versions (for example 3.5 which is based on OpenBSD 5.7) often contain
 
 There is an [RSS feed](https://github.com/halonsecurity/securityrouter.org/releases.atom) available.
 
+## 3.0-p24
+Released on 2012-11-21
+- **`New`** The `proxy-arp` makes it possible to use [LAN network in VPN server](http://sr.wiki.halon.se/wiki/VPN_server#Proxy_ARP)
+- **`Imp`** Cluster (`hdpd`) keeps information about dead hosts
+- **`Imp`** Improved macro/table presentation on Network > Firewall
+- **`Imp`** Many load balancer improvements
+ - Proper source-tracking per redirect
+ - Summarise statistics for multiple "listen on"
+ - Ability to enable/disable hosts in all relays/redirects
+ - Creates automatic rules for relays (tagged relayd)
+ - Wizard for adding relays and redirects
+ - User interface for global settings
+ - [MIB](http://sr.wiki.halon.se/wiki/Load_balancing#SNMP_traps) for traps
+- **`Imp`** User interface for SNMP settings on System > SNMP
+- **`Bug`** Fixed problem when renaming duplicate macros/tables
+- **`Bug`** Exports on Configuration > Revision management named properly
+- **`Bug`** Fixed issue with `statd` removing graphs when redirects is down
+
 ## 3.0-p23
 Released on 2012-10-25
 - **`Imp`** Allow more than 4 VPN server groups by creating /dev/tunX dynamically
