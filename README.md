@@ -4,6 +4,26 @@ New major versions (for example 3.5 which is based on OpenBSD 5.7) often contain
 
 There is an [RSS feed](https://github.com/halonsecurity/securityrouter.org/releases.atom) available.
 
+## 3.0-p17
+Released on 2012-08-22
+- **`New`** [DHCPv6](http://wiki.halon.se/SR/IPv6#DHCPv6) server, client and prefix delegation
+- **`New`** IPv6 router solicitation client
+- **`New`** [User classes](http://wiki.halon.se/SR/Users), including read-only users (login.conf)
+- **`New`** Web graph layout is customisable and auto saved
+- **`Imp`** Ability to renew DHCP leases
+- **`Imp`** Web improvements for Apple iOS and Microsoft IE 9
+- **`Imp`** Web terminal has better scroll-back
+- **`Imp`** Web shows disk usage on System > Hardware
+- **`Imp`** Changed system paths according to BSD defaults
+- **`Imp`** [CLI](http://wiki.halon.se/SR/CLI) parsing improved with quoted strings
+- **`Imp`** Web settings stored in HTML5 local storage
+- **`Imp`** Updated jQuery
+- **`Bug`** Resolved cluster memory leak in backend
+- **`Bug`** Resolved issue with /tmp getting full
+- **`Bug`** Resolved web cluster page script error
+- **`Bug`** Suppressed warning when confirming deployment
+- **`Bug`** Spelling corrections
+
 ## 3.0-p16
 Released on 2012-07-10
 - **`New`** Diagnostics > Terminal with full ANSI support
