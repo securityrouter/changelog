@@ -4,6 +4,23 @@ New major versions (for example 3.5 which is based on OpenBSD 5.7) often contain
 
 There is an [RSS feed](https://github.com/halonsecurity/securityrouter.org/releases.atom) available.
 
+## 3.3
+Released on 2014-05-13
+- **`New`** Based on [OpenBSD 5.5](http://www.openbsd.org/55.html)
+- **`New`** Added [VXLAN](http://sr.wiki.halon.se/wiki/VXLAN) to grammar and web admin
+- **`New`** Supports new hardware such as
+ - VMware's VMXNET3 network interfaces and paravirtual SCSI
+ - VirtIO's paravirtual SCSI and random number devices
+ - Many new Intel platforms and NICs, such as the AES-NI capable Atom [C2000](http://www.intel.com/content/www/us/en/intelligent-systems/rangeley/atom-c2000-product-family-based-platforms-overview.html)
+ - PC Engine's [APU](http://pcengines.ch/apu.htm)
+- **`Imp`** Support copy-pasting directly into web admin's HTML5 terminal
+- **`Imp`** Accurately choose a local IPsec endpoint address to send probe pings from
+- **`Imp`** [Ed25519](http://ed25519.cr.yp.to) SSH signatures
+- **`Imp`** Allow omitting pflow (NetFlow/IPFIX) sender address
+- **`Bug`** Fixes an issue where the IKE daemon `isakmpd` wouldn't run with many addresses configured
+- **`Bug`** Do not use cluster rdomain for updating on active cluster nodes without default route
+- **`Bug`** Fixes an issue where the VPN server `npppd` could fail to start
+
 ## 3.2-r2p1
 Released on 2014-04-08
 - **`Bug`** Patched OpenSSL ["heartbleed"](http://heartbleed.com) vulnerability (CVE-2014-0160)
