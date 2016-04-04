@@ -4,6 +4,12 @@ New major versions (for example 3.5 which is based on OpenBSD 5.7) often contain
 
 There is an [RSS feed](https://github.com/halonsecurity/securityrouter.org/releases.atom) available.
 
+## 3.1-p5
+Released on 2013-08-09
+- **`Imp`** Gracefully discard invalid host names in vApp deployment
+- **`Bug`** Warning on front page if no graphs are available
+- **`Bug`** XML warning on non-VMware system's interface page
+
 ## 3.1-p4
 Released on 2013-08-07
 - **`Imp`** Support new HSR-1200 series hardware
