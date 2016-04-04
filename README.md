@@ -4,6 +4,15 @@ New major versions (for example 3.5 which is based on OpenBSD 5.7) often contain
 
 There is an [RSS feed](https://github.com/halonsecurity/securityrouter.org/releases.atom) available.
 
+## 3.4-r1
+Released on 2015-03-19
+- **`New`** Added support for [LLDP](http://securityrouter.org/wiki/LLDP)
+- **`New`** Added support for [vether](http://www.openbsd.org/cgi-bin/man.cgi/OpenBSD-5.6/man4/vether.4?query=vether) interfaces
+- **`Sec`** Patched OpenSSL in regards to [security advisory as of 19 mar 2015](http://www.openbsd.org/errata56.html#020_openssl)
+- **`Bug`** Bug on load balancing page with "pftag"
+- **`Bug`** Regression in the HTTPS SOAP API (since 3.4)
+- **`Dep`** gmt0 was renamed to utc in SOAP API
+
 ## 3.4-p1
 Released on 2015-01-12
 - **`Imp`** Backup (cluster) nodes can use NTP (`ntpd`) even without working egress IP, via cluster port
