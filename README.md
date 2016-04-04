@@ -4,6 +4,16 @@ New major versions (for example 3.5 which is based on OpenBSD 5.7) often contain
 
 There is an [RSS feed](https://github.com/halonsecurity/securityrouter.org/releases.atom) available.
 
+## 3.2
+Released on 2013-11-08
+- **`New`** Based on OpenBSD 5.4
+- **`New`** Router advertisement (v6) can announce DNS
+- **`Imp`** Router advertisement doesn't announce prefix if DHCP managed
+- **`Imp`** Sandboxed SSH server
+- **`Imp`** Disabled private SNMP community by default
+- **`Imp`** Various minor improvements
+- **`Bug`** Issue with load balancer's host page when using IPs in relays
+
 ## 3.1-p7
 Released on 2013-11-01
 - **`New`** Buy feature licenses from within product's interface
