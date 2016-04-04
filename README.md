@@ -4,6 +4,14 @@ New major versions (for example 3.5 which is based on OpenBSD 5.7) often contain
 
 There is an [RSS feed](https://github.com/halonsecurity/securityrouter.org/releases.atom) available.
 
+## 3.3-p1
+Released on 2014-06-09
+- **`Sec`** Fix OpenSSL CVE-2014-0195, 2014-0221, 2014-0224 and 2014-3470
+- **`Imp`** Removed deprecated browser-specific CSS3 options (Mozilla, Opera)
+- **`Imp`** Enable auto-scroll on keypress in web terminal
+- **`Bug`** Allow more than 1000 items to be saved (PHP introduced input data limit)
+- **`Bug`** Update firmware boot data on OpenBSD 5.0 systems to prevent boot issue
+
 ## 3.3
 Released on 2014-05-13
 - **`New`** Based on [OpenBSD 5.5](http://www.openbsd.org/55.html)
