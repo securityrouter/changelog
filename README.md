@@ -4,6 +4,16 @@ New major versions (for example 3.5 which is based on OpenBSD 5.7) often contain
 
 There is an [RSS feed](https://github.com/halonsecurity/securityrouter.org/releases.atom) available.
 
+## 3.0-p30
+Released on 2013-04-11
+- **`New`** Mirror (SPAN ports) on bridges
+- **`Imp`** Keep logs and graphs when rebooting if using a storage disk
+- **`Imp`** Faster software updates (writes data to disk asynchronous)
+- **`Imp`** Flush all GRE states when enabling the PPTP proxy
+- **`Imp`** `storageupdate` has support for explicit (IPv) -4 and -6
+- **`Bug`** Max addresses on bridges wasn't configurable in web administration
+- **`Bug`** Load balancer's wizard was to strict on detecting potential conflicts
+
 ## 3.0-p29
 Released on 2013-03-11
 - **`New`** New model VSR-Lite available for purchase
