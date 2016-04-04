@@ -4,6 +4,12 @@ New major versions (for example 3.5 which is based on OpenBSD 5.7) often contain
 
 There is an [RSS feed](https://github.com/halonsecurity/securityrouter.org/releases.atom) available.
 
+## 3.0-p21
+Released on 2012-09-25
+- **`Imp`** Web admin settings for VPN-server client routes
+- **`Imp`** Usability improvements
+- **`Bug`** Real-time firewall log issue resolved
+
 ## 3.0-p20
 Released on 2012-09-24
  - New: VPN-server (L2TP/PPTP) supports client routes
