@@ -4,6 +4,15 @@ New major versions (for example 3.5 which is based on OpenBSD 5.7) often contain
 
 There is an [RSS feed](https://github.com/halonsecurity/securityrouter.org/releases.atom) available.
 
+## 3.0-p19
+Released on 2012-09-10
+- **`New`** VPN-server (L2TP) NAT-T support
+- **`New`** VPN-server (L2TP/PPTP) DNS suffix support
+- **`New`** Replaced [`configure`](http://wiki.halon.se/SR/Configure) "diff" with new "compare" command
+- **`Imp`** Various graphical usability improvements
+- **`Bug`** Saving a firewall macro with multiple items resulted in duplicate brackets
+- **`Bug`** L2TP passphrase not saved when editing existing server
+
 ## 3.0-p18
 Released on 2012-09-02
 - **`New`** VSR-Free, a free license
