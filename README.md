@@ -4,6 +4,20 @@ New major versions (for example 3.5 which is based on OpenBSD 5.7) often contain
 
 There is an [RSS feed](https://github.com/halonsecurity/securityrouter.org/releases.atom) available.
 
+## 3.2-r2
+Released on 2014-04-03
+- **`New`** Route priorities
+- **`New`** Add reserved host from DHCP lease page
+- **`Imp`** Load balancers on front page in web admin
+- **`Imp`** Show cancel URL when testing a commit
+- **`Imp`** Ping with LAN addresses if a tunnels local endpoint is 0.0.0.0/0
+- **`Imp`** Warn about pflow protocol 9 soon being deprecated
+- **`Bug`** Web admin failed to set IKE phase 2 mode to none
+- **`Bug`** Basic setup erased aliases if having multiple IPs
+- **`Bug`** isakmpctl capture could fail to show decrypted packets
+- **`Bug`** Cluster push configuration button were broken
+- **`Bug`** System could run out of bpf interfaces
+
 ## 3.2-r1
 Released on 2014-01-08
 - **`New`** Added `x-superuser` [login class](http://sr.wiki.halon.se/wiki/Users)
