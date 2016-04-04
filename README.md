@@ -4,6 +4,28 @@ New major versions (for example 3.5 which is based on OpenBSD 5.7) often contain
 
 There is an [RSS feed](https://github.com/halonsecurity/securityrouter.org/releases.atom) available.
 
+## 3.0-p16
+Released on 2012-07-10
+- **`New`** Diagnostics > Terminal with full ANSI support
+- **`New`** Working copy allows for atomic apply of multiple changes
+- **`Imp`** Ability to tag configuration revisions with a message
+- **`Imp`** Ability to cancel a pending configuration test
+- **`Imp`** Network > Interface got statistics
+- **`Imp`** Network > Interface got PPPoE support
+- **`Imp`** Network > Firewall supports negation of addresses
+- **`Imp`** Network > Basic setup got PPPoE support
+- **`Imp`** Network > DHCP server lists connected clients (leases)
+- **`Imp`** PPPoE interface automatically adds routes and rules
+- **`Imp`** Welcome texts on first boot
+- **`Imp`** New layout on login screen
+- **`Imp`** Highlights save or warns about unsaved changes
+- **`Imp`** Validating function configCheck() in SOAP API
+- **`Imp`** Default arguments in SOAP API
+- **`Imp`** Command for showing licenses in CLI
+- **`Bug`** Now validates reserved DHCP host's name more strictly
+- **`Bug`** No longer kicked out of console when setting root password
+- **`Bug`** Resolved issue with dhsyncd causing sawtooth CPU usage
+
 ## 3.0-p15
 Released on 2012-06-11
 - **`Imp`** Support for ne (NE1000) interfaces (used by Parallels Desktop)
