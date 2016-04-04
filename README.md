@@ -4,6 +4,49 @@ New major versions (for example 3.5 which is based on OpenBSD 5.7) often contain
 
 There is an [RSS feed](https://github.com/halonsecurity/securityrouter.org/releases.atom) available.
 
+## 3.0-p14
+Released on 2012-06-08
+- **`New`** Introduced cluster support using SSL certificates
+- **`New`** Introduced PPPoE support
+- **`New`** Introduced RADIUS support for PPTP and L2TP server with groups
+- **`New`** Last ethernet interface automatically becomes cluster sync on installation
+- **`New`** Possibility to update a cluster node through other node via sync interface
+- **`New`** New replace command in CLI configure
+- **`New`** Load balancer shows statistics for layer 3 (redirects)
+- **`New`** Keyboard layout support for video consoles
+- **`Imp`** Internal IPC moved from TCP to Unix sockets for increased local security
+- **`Imp`** Firewall page supports "received-on" routing domains
+- **`Imp`** Friendly warning on password change in web administration
+- **`Imp`** DHCP server supports clustering
+- **`Imp`** DHCP server supports DHCP option 43
+- **`Imp`** Make DHCP server leases persistent across reboots
+- **`Imp`** Possibility to only change one of the DHCP range values
+- **`Imp`** Router advertisements supports clustering
+- **`Imp`** Basic setup displays unplugged cable correctly
+- **`Imp`** Support Intel 10/100 network cards (fxp)
+- **`Imp`** HTTPS server supports certificates and keys in configuration
+- **`Imp`** Renamed "cd" to "edit" in CLI configure
+- **`Imp`** License page more detailed explains license keys
+- **`Imp`** Overview page consumes less CPU
+- **`Imp`** Load balancer inherits default SSL certificate unless overridden
+- **`Imp`** Load balancer page layout improved
+- **`Imp`** Web browser cache is automatically flushed after software updates
+- **`Imp`** Users "admin" and "root" can force reboots from CLI
+- **`Imp`** Users "admin" and "root" can perform a factory reset from CLI
+- **`Imp`** Allowed all users to view packets in tcpdump from CLI
+- **`Imp`** License, copyright and credit page added under Help page
+- **`Imp`** Prevents users from removing themselves by mistake
+- **`Imp`** IPsec tunnel ping test works on /0 networks
+- **`Imp`** Hide shutdown button on hardware page by default
+- **`Bug`** Bug in tcpbench resolved (patch sent upstream)
+- **`Bug`** Display error on DHCP page resolved
+- **`Bug`** The PPTP proxy has issues with clients sending GRE too early
+- **`Bug`** Monotonic time were not always used for wake ups
+- **`Bug`** Change of order of some keys in configuration didn't triggering a commit
+- **`Bug`** Parsing error on load balancer page resolved
+- **`Bug`** Syslog didn't log with host name
+- **`Bug`** DHCP settings link on interface page didn't work for all interface types
+
 ## 3.0-p13
 Released on 2012-03-22
 - **`Bug`** DHCP relay regression issue resolved
