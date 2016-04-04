@@ -4,6 +4,19 @@ New major versions (for example 3.5 which is based on OpenBSD 5.7) often contain
 
 There is an [RSS feed](https://github.com/halonsecurity/securityrouter.org/releases.atom) available.
 
+## 3.1
+Released on 2013-07-10
+- **`New`** Based on OpenBSD 5.3 (with patches from head)
+- **`New`** Support for KVM Virtio para-virtualized drivers
+- **`New`** Added load balancer methods; least states, source hash, random
+- **`New`** Support for NetFlow 9 and 10 (IPFIX) in `pflow`
+- **`New`** Temperature sensors on graph page
+- **`Imp`** Added IPsec lifetime to plain-text configuration and interface
+- **`Imp`** Added DHCP server options 66 and 67
+- **`Imp`** Allow DHCP relay on CARP interface
+- **`Bug`** Only allow valid advbase values
+- **`Bug`** NTP client reload fixes
+
 ## 3.0-p33
 Released on 2013-06-28
 - **`Imp`** Load balancer (relayd) performance improved
