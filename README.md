@@ -4,6 +4,10 @@ New major versions (for example 3.5 which is based on OpenBSD 5.7) often contain
 
 There is an [RSS feed](https://github.com/halonsecurity/securityrouter.org/releases.atom) available.
 
+## 3.2-r2p1
+Released on 2014-04-08
+- **`Bug`** Patched OpenSSL ["heartbleed"](http://heartbleed.com) vulnerability (CVE-2014-0160)
+
 ## 3.2-r2
 Released on 2014-04-03
 - **`New`** Route priorities
