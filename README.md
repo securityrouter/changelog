@@ -4,6 +4,21 @@ New major versions (for example 3.5 which is based on OpenBSD 5.7) often contain
 
 There is an [RSS feed](https://github.com/halonsecurity/securityrouter.org/releases.atom) available.
 
+## 3.5
+Released on 2015-05-27
+- **`New`** Based on [OpenBSD 5.7](http://www.openbsd.org/57.html) with many improvements, such as
+ - The load balancer (relayd) supports source-hash for L3 (redirections) and [SNMP](http://cvsweb.openbsd.org/cgi-bin/cvsweb/~checkout~/src/share/snmp/OPENBSD-RELAYD-MIB.txt?rev=1.1)
+ - BIND has been removed, use [unbound](http://securityrouter.org/wiki/DNS_cache) instead
+ - nginx has been replaced with OpenBSD's [own httpd](http://www.openbsd.org/papers/httpd-slides-asiabsdcon2015.pdf)
+ - Support for new hardware, and improved network drivers
+- **`Imp`** The firewall page loads faster with many rules
+- **`Imp`** Automatic firewall rule sorting has been replaced by a "Sort" button
+- **`Bug`** Make [clusterd](http://securityrouter.org/wiki/Clustering) and [configure](http://securityrouter.org/wiki/Configure) UTF-8 aware, to prevent corruption of non-ASCII
+- **`Bug`** Empty persistent tables were overwritten by the firewall page
+- **`Bug`** Fix issue on web admin's IPsec page with quoted strings containing syntax tokens
+- **`Dep`** The load balancer has renamed the "ssl" keyword to "tls"
+- **`Dep`** The load balancer is TLSv1.2 only by default, you need to manually enable other protocols
+
 ## 3.4-r1
 Released on 2015-03-19
 - **`New`** Added support for [LLDP](http://securityrouter.org/wiki/LLDP)
