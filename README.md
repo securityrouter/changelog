@@ -4,6 +4,12 @@ New major versions (for example 3.5 which is based on OpenBSD 5.7) often contain
 
 There is an [RSS feed](https://github.com/halonsecurity/securityrouter.org/releases.atom) available.
 
+## 3.5-r1
+Released on 2015-07-30
+- **`New`** Firewall ([pf.conf](http://www.openbsd.org/cgi-bin/man.cgi/OpenBSD-current/man5/pf.conf.5?query=pf%2econf)) editor got support for new syntax such as prio, queue, etc
+- **`New`** New "basic" (non-JavaScript) firewall editor which is much faster when working with large rulesets
+- **`Bug`** Regressions (since 3.5) in the first-run config disk population and `pkg_*` settings resolved
+
 ## 3.5
 Released on 2015-05-27
 - **`New`** Based on [OpenBSD 5.7](http://www.openbsd.org/57.html) with many improvements, such as
