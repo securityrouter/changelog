@@ -4,6 +4,11 @@ New major versions (for example 3.5 which is based on OpenBSD 5.7) often contain
 
 There is an [RSS feed](https://github.com/halonsecurity/securityrouter.org/releases.atom) available.
 
+## 3.4-p1
+Released on 2015-01-12
+- **`Imp`** Backup (cluster) nodes can use NTP (`ntpd`) even without working egress IP, via cluster port
+- **`Bug`** Web admin server regression; now uses [nginx](http://www.openbsd.org/cgi-bin/man.cgi/OpenBSD-5.6/man8/nginx.8?query=nginx&amp;manpath=OpenBSD%2d5%2e6)
+
 ## 3.4
 Released on 2014-12-11
 - **`New`** Based on [OpenBSD 5.6](http://www.openbsd.org/56.html)
