@@ -4,6 +4,13 @@ New major versions (for example 3.5 which is based on OpenBSD 5.7) often contain
 
 There is an [RSS feed](https://github.com/halonsecurity/securityrouter.org/releases.atom) available.
 
+## 3.0-p23
+Released on 2012-10-25
+- **`Imp`** Allow more than 4 VPN server groups by creating /dev/tunX dynamically
+- **`Imp`** Visual noise when displaying all rulesets on firewall page removed
+- **`Imp`** Permit hyphens in the host part in FQDNs (search-domain and host-name)
+- **`Imp`** Other minor improvements
+
 ## 3.0-p22
 Released on 2012-10-22
 - **`New`** Real-time graphs
