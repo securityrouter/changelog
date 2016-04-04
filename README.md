@@ -4,6 +4,13 @@ New major versions (for example 3.5 which is based on OpenBSD 5.7) often contain
 
 There is an [RSS feed](https://github.com/halonsecurity/securityrouter.org/releases.atom) available.
 
+## 3.0-p26
+Released on 2013-02-05
+- **`Imp`** VLAN on trunk interfaces
+- **`Imp`** Suppress repeated cluster errors
+- **`Imp`** Other minor improvements
+- **`Bug`** When configuring partial date and time
+
 ## 3.0-p25
 Released on 2012-12-14
 - **`New`** Microsoft Hyper-V support
