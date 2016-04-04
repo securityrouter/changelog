@@ -4,6 +4,19 @@ New major versions (for example 3.5 which is based on OpenBSD 5.7) often contain
 
 There is an [RSS feed](https://github.com/halonsecurity/securityrouter.org/releases.atom) available.
 
+## 3.4
+Released on 2014-12-11
+- **`New`** Based on [OpenBSD 5.6](http://www.openbsd.org/56.html)
+ - Includes the [Unbound](http://securityrouter.org/wiki/DNS_cache#Unbound) DNS cache
+ - Reverse proxy (`match ... forward to`) support in the [load balancer](http://www.openbsd.org/cgi-bin/man.cgi/OpenBSD-current/man5/relayd.conf.5?query=relayd%2econf)
+ - Support for new hardware, including network adapters from Broadcom and Realtek
+- **`Imp`** Add [SIP proxy](http://securityrouter.org/wiki/Proxies#SIP_proxy) to interface page
+- **`Imp`** Support searching logs larger than 2 GB
+- **`Bug`** Fixes regression on load balancer status page
+- **`Bug`** Fixes issue when loading/reloading isakmpd
+- **`Bug`** Fixes issue with dhinfod
+- **`Bug`** Fixes issue with router advertisement and DHCPv6 with some clients
+
 ## 3.3-p2
 Released on 2014-08-11
 - **`Bug`** Re-configure IKE daemon (isakmpd) if it crashes and is restarted by the watchdog
