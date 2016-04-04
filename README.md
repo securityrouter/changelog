@@ -4,6 +4,22 @@ New major versions (for example 3.5 which is based on OpenBSD 5.7) often contain
 
 There is an [RSS feed](https://github.com/halonsecurity/securityrouter.org/releases.atom) available.
 
+## 3.0-p31
+Released on 2013-05-21
+- **`Imp`** System disks are grown to disk's size (CF, etc) into new data partition
+- **`Imp`** Buffered software update without storage disk on grown systems
+- **`Imp`** Support 1000base* on Intel's SFP+
+- **`Imp`** Interface descriptions on graphs page
+- **`Imp`** Ability to change CARP password from interface page
+- **`Imp`** Sort DHCP leases based on lease times
+- **`Imp`** Web terminal's input synchronised
+- **`Imp`** Support `sis` interfaces
+- **`Imp`** Improved Ethernet media handling
+- **`Imp`** Allow svlan (QinQ) on trunk (LAG) interfaces
+- **`Imp`** Reserved DHCP hosts excluded from ranges
+- **`Bug`** IPsec labels such as "to host" was interpreted as a resolvable hostname
+- **`Bug`** Graph daemon `statd` warned about full disk too many times
+
 ## 3.0-p30
 Released on 2013-04-11
 - **`New`** Mirror (SPAN ports) on bridges
