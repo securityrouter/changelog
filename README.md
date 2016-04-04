@@ -4,6 +4,27 @@ New major versions (for example 3.5 which is based on OpenBSD 5.7) often contain
 
 There is an [RSS feed](https://github.com/halonsecurity/securityrouter.org/releases.atom) available.
 
+## 3.0-p22
+Released on 2012-10-22
+- **`New`** Real-time graphs
+- **`New`** Graphs for firewall states
+- **`New`** Login banner in web administration
+- **`New`** Highlight text in CLI output with | mark
+- **`Imp`** Forwarding (firewall/routing) performance improved
+- **`Imp`** Ability to configure DNS, routes, etc per VPN group
+- **`Imp`** Always allow DHCP on VPN interfaces for dhinfod to work
+- **`Imp`** Shortcuts to rule and state statistics on Firewall page
+- **`Imp`** Better logging when using SOAP's commandRun
+- **`Imp`** Go directly to deploy/diff when saving on clear-text page
+- **`Imp`** Ability to restore the terminal using CLI's "reset"
+- **`Imp`** Display line numbers of configuration error page
+- **`Imp`** Firewall page now visually renders more protocols
+- **`Imp`** Less obstructive reloading of VPN server
+- **`Imp`** Other minor improvements
+- **`Bug`** Bug in PHP/CURL's DNS reloading remedied
+- **`Bug`** Memory leak in UUID generation
+- **`Bug`** Invalid netmask displayed as 0.0.0.0 on basic setup page
+
 ## 3.0-p21
 Released on 2012-09-25
 - **`Imp`** Web admin settings for VPN-server client routes
