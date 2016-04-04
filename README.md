@@ -4,6 +4,11 @@ New major versions (for example 3.5 which is based on OpenBSD 5.7) often contain
 
 There is an [RSS feed](https://github.com/halonsecurity/securityrouter.org/releases.atom) available.
 
+## 3.3-p2
+Released on 2014-08-11
+- **`Bug`** Re-configure IKE daemon (isakmpd) if it crashes and is restarted by the watchdog
+- **`Bug`** Mitigate a threading issue, to prevent rare dead-locks during startup and reconfiguring
+
 ## 3.3-p1
 Released on 2014-06-09
 - **`Sec`** Fix OpenSSL CVE-2014-0195, 2014-0221, 2014-0224 and 2014-3470
