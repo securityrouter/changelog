@@ -4,6 +4,13 @@ New major versions (for example 3.5 which is based on OpenBSD 5.7) often contain
 
 There is an [RSS feed](https://github.com/halonsecurity/securityrouter.org/releases.atom) available.
 
+## 3.1-p6
+Released on 2013-09-02
+- **`Bug`** Management interfaces couldn't be disabled on administration page
+- **`Bug`** IKE lifetime wasn't maintained on IPsec page
+- **`Bug`** Tables was printed with an extra semi-colon on firewall page
+- **`Bug`** NTP client didn't use updated name servers (for example DHCP)
+
 ## 3.1-p5
 Released on 2013-08-09
 - **`Imp`** Gracefully discard invalid host names in vApp deployment
