@@ -4,6 +4,15 @@ New major versions (for example 3.5 which is based on OpenBSD 5.7) often contain
 
 There is an [RSS feed](https://github.com/halonsecurity/securityrouter.org/releases.atom) available.
 
+## 3.0-p18
+Released on 2012-09-02
+- **`New`** VSR-Free, a free license
+- **`New`** License subscription, option to automatically downloads license keys
+- **`Imp`** [CLI](http://wiki.halon.se/SR/CLI) can install and remove license keys
+- **`Imp`** Log failed password attempts via HTTPS
+- **`Imp`** Added support for option 82 in the dhcp-relay
+- **`Bug`** Multiple negations on firewall page didn't render properly
+
 ## 3.0-p17
 Released on 2012-08-22
 - **`New`** [DHCPv6](http://wiki.halon.se/SR/IPv6#DHCPv6) server, client and prefix delegation
