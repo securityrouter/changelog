@@ -9,6 +9,7 @@ Unreleased
 - **`New`** Based on [OpenBSD 5.9](http://www.openbsd.org/59.html)
  - Xen paravirtualizion support
  - SMP network stack improvements
+- **`Dep`** Moved [`ikev2`](http://man.openbsd.org/OpenBSD-current/man5/iked.conf.5) to separate `ike {` context for more accurate validation
 
 ## 3.6
 Released on 2015-11-20
