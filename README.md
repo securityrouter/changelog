@@ -9,6 +9,8 @@ Unreleased
 - **`New`** Based on [OpenBSD 5.9](http://www.openbsd.org/59.html)
  - Xen paravirtualizion support
  - SMP network stack improvements
+ - New `etherip` for Ethernet tunneling (RFC 3378)
+ - IPv6 support for pflow (NetFlow) transport
 - **`Dep`** Moved [`ikev2`](http://man.openbsd.org/OpenBSD-current/man5/iked.conf.5) to separate `ike {` context for more accurate validation
 
 ## 3.6
