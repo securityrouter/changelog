@@ -4,6 +4,10 @@ New major versions (for example 3.5 which is based on OpenBSD 5.7) often contain
 
 There is an [RSS feed](https://github.com/halonsecurity/securityrouter.org/releases.atom) available.
 
+## 3.7
+Unreleased
+- **`New`** Based on [OpenBSD 5.9](http://www.openbsd.org/59.html)
+
 ## 3.6
 Released on 2015-11-20
 - **`New`** Based on [OpenBSD 5.8](http://www.openbsd.org/58.html)
