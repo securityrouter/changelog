@@ -7,6 +7,8 @@ There is an [RSS feed](https://github.com/halonsecurity/securityrouter.org/relea
 ## 3.7
 Unreleased
 - **`New`** Based on [OpenBSD 5.9](http://www.openbsd.org/59.html)
+ - Xen paravirtualizion support
+ - SMP network stack improvements
 
 ## 3.6
 Released on 2015-11-20
