@@ -7,11 +7,14 @@ There is an [RSS feed](https://github.com/halonsecurity/securityrouter.org/relea
 ## 3.7
 Unreleased
 - **`New`** Based on [OpenBSD 5.9](http://www.openbsd.org/59.html)
- - Xen paravirtualizion support
  - SMP network stack improvements
+ - Xen paravirtualizion support
+ - Initial IEEE 802.11n wireless support
  - New [`etherip`](http://man.openbsd.org/OpenBSD-current/man4/etherip.4) Ethernet tunneling (RFC 3378) interface
  - New [`pair`](http://man.openbsd.org/OpenBSD-current/man4/pair.4) Ethernet encapsulation interface
  - IPv6 support for pflow (NetFlow) transport
+ - IKEv2 interoperability with OS X El Capitan
+ - Support for new hardware, including network adapters from Intel and Realtek
 - **`Imp`** Ability to enable/disable clustering (sasyncd) without restarting IKE daemons
 - **`Dep`** Moved [`ikev2`](http://man.openbsd.org/OpenBSD-current/man5/iked.conf.5) to separate `ike {` context for more accurate validation
 
