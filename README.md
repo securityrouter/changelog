@@ -7,7 +7,7 @@ There is an [RSS feed](https://github.com/halonsecurity/securityrouter.org/relea
 ## 3.7-p1
 Unreleased
 - **`Bug`** Fixed regression since 3.7 (pledge-related) where some programs aborted because of `TZ` path
-- **`Bug`** Applied [5.9 errata](http://www.openbsd.org/errata59.html) up to #008, including [CVE-2016-2105 to 9](https://www.openssl.org/news/secadv/20160503.txt)
+- **`Bug`** Applied [5.9 errata](http://www.openbsd.org/errata59.html) up to #009, including [CVE-2016-2105 to 9](https://www.openssl.org/news/secadv/20160503.txt)
 
 ## 3.7
 Released on 2016-04-25
