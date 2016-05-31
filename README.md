@@ -5,7 +5,7 @@ New major versions (for example 3.5 which is based on OpenBSD 5.7) often contain
 There is an [RSS feed](https://github.com/halonsecurity/securityrouter.org/releases.atom) available.
 
 ## 3.7-p1
-Unreleased
+Released on 2016-05-31
 - **`Bug`** Fixed regression since 3.7 (pledge-related) where some programs aborted because of `TZ` path
 - **`Bug`** Applied [5.9 errata](http://www.openbsd.org/errata59.html) up to #009, including [CVE-2016-2105 to 9](https://www.openssl.org/news/secadv/20160503.txt)
 
