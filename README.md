@@ -4,6 +4,14 @@ New major versions (for example 3.5 which is based on OpenBSD 5.7) often contain
 
 There is an [RSS feed](https://github.com/halonsecurity/securityrouter.org/releases.atom) available.
 
+## 6.0
+Unreleased
+- **`New`** Based on [OpenBSD 6.0](http://www.openbsd.org/60.html)
+ - SMP improvements in AES-NI and network stack
+ - MSI-X on VirtIO
+ - W^X is strictly enforced
+- **`New`** Mobile-friendly web administration based on [Bootstrap](http://getbootstrap.com)
+
 ## 3.7-p1
 Released on 2016-05-31
 - **`Bug`** Fixed regression since 3.7 (pledge-related) where some programs aborted because of `TZ` path
