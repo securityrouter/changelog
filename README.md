@@ -10,6 +10,7 @@ Unreleased
  - SMP improvements in AES-NI and network stack
  - MSI-X on VirtIO
  - W^X is strictly enforced
+ - Support for new hardware, including NVMe and GPIO controllers
 - **`New`** Mobile-friendly web administration based on [Bootstrap](http://getbootstrap.com)
 
 ## 3.7-p1
