@@ -6,6 +6,7 @@ There is an [RSS feed](https://github.com/halonsecurity/securityrouter.org/relea
 
 ## 6.0-p1
 Unreleased
+- **`Imp`** Simplified provisioning, such as initialising a [storage disk](http://securityrouter.org/wiki/Architecture#Storage_disk) non-interactively
 - **`Bug`** Applied [6.0 errata](http://www.openbsd.org/errata60.html) up to #011
 
 ## 6.0
