@@ -4,8 +4,12 @@ New major versions (for example 3.5 which is based on OpenBSD 5.7) often contain
 
 There is an [RSS feed](https://github.com/halonsecurity/securityrouter.org/releases.atom) available.
 
-## 6.0
+## 6.0-p1
 Unreleased
+- **`Bug`** Applied [6.0 errata](http://www.openbsd.org/errata60.html) up to #011
+
+## 6.0
+Released on 2016-09-20
 - **`New`** Based on [OpenBSD 6.0](http://www.openbsd.org/60.html)
  - SMP improvements in AES-NI and network stack
  - MSI-X on VirtIO
