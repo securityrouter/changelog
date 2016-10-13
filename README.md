@@ -5,7 +5,7 @@ New major versions (for example 3.5 which is based on OpenBSD 5.7) often contain
 There is an [RSS feed](https://github.com/halonsecurity/securityrouter.org/releases.atom) available.
 
 ## 6.0-p1
-Unreleased
+Released on 2016-10-13
 - **`Imp`** Simplified provisioning, such as initialising a [storage disk](http://securityrouter.org/wiki/Architecture#Storage_disk) non-interactively
 - **`Bug`** Applied [6.0 errata](http://www.openbsd.org/errata60.html) up to #011
 
