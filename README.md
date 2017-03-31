@@ -8,7 +8,7 @@ There is an [RSS feed](https://github.com/halonsecurity/securityrouter.org/relea
 Unreleased
 - **`Imp`** More options in software update
 - **`Bug`** Don't start NTP in cluster domain unless it exists
-- **`Bug`** Fixed regressions in the new Bootstrap interface, such as IPsec status colors
+- **`Bug`** Fixed regressions in the new Bootstrap interface (IPsec, DHCP, and more)
 - **`Bug`** Applied [6.0 errata](http://www.openbsd.org/errata60.html) up to #014
 
 ## 6.0-p1
