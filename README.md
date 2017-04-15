@@ -5,8 +5,9 @@ New major versions (for example 3.5 which is based on OpenBSD 5.7) often contain
 There is an [RSS feed](https://github.com/halonsecurity/securityrouter.org/releases.atom) available.
 
 ## 6.0-p2
-Unreleased
+Released on 2017-04-15
 - **`Imp`** More options in software update
+- **`Bug`** Fixed subscription license issue with VPN reload
 - **`Bug`** Don't start NTP in cluster domain unless it exists
 - **`Bug`** Fixed regressions in the new Bootstrap interface (IPsec, DHCP, and more)
 - **`Bug`** Applied [6.0 errata](http://www.openbsd.org/errata60.html) up to #014
