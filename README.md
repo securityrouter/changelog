@@ -4,6 +4,13 @@ New major versions (for example 3.5 which is based on OpenBSD 5.7) often contain
 
 There is an [RSS feed](https://github.com/halonsecurity/securityrouter.org/releases.atom) available.
 
+## 6.1
+Unreleased
+- **`New`** Based on [OpenBSD 6.1](http://www.openbsd.org/61.html)
+  - Hyper-V network driver [`hvn`](http://man.openbsd.org/hvn.4)
+  - New [`mobileip`](http://man.openbsd.org/OpenBSD-current/man4/mobileip.4) (RFC 2004) tunneling interface
+  - Multipoint-to-multipoint mode in [`vxlan`](http://man.openbsd.org/OpenBSD-current/man4/vxlan.4)
+
 ## 6.0-p2
 Released on 2017-04-15
 - **`Imp`** More options in software update
@@ -20,10 +27,10 @@ Released on 2016-10-13
 ## 6.0
 Released on 2016-09-20
 - **`New`** Based on [OpenBSD 6.0](http://www.openbsd.org/60.html)
- - SMP improvements in AES-NI and network stack
- - MSI-X on VirtIO
- - W^X is strictly enforced
- - Support for new hardware, including NVMe and GPIO controllers
+  - SMP improvements in AES-NI and network stack
+  - MSI-X on VirtIO
+  - W^X is strictly enforced
+  - Support for new hardware, including NVMe and GPIO controllers
 - **`New`** Mobile-friendly web administration based on [Bootstrap](http://getbootstrap.com)
 
 ## 3.7-p1
@@ -34,15 +41,15 @@ Released on 2016-05-31
 ## 3.7
 Released on 2016-04-25
 - **`New`** Based on [OpenBSD 5.9](http://www.openbsd.org/59.html)
- - SMP network stack improvements
- - Xen paravirtualizion support
- - Initial IEEE 802.11n wireless support
- - New [`etherip`](http://man.openbsd.org/OpenBSD-current/man4/etherip.4) Ethernet tunneling (RFC 3378) interface
- - New [`pair`](http://man.openbsd.org/OpenBSD-current/man4/pair.4) Ethernet encapsulation interface
- - New [EIGRP](http://man.openbsd.org/OpenBSD-current/man5/eigrpd.conf.5) routing daemon
- - IPv6 support for pflow (NetFlow) transport
- - IKEv2 interoperability with OS X El Capitan
- - Support for new hardware, including network adapters from Intel and Realtek
+  - SMP network stack improvements
+  - Xen paravirtualizion support
+  - Initial IEEE 802.11n wireless support
+  - New [`etherip`](http://man.openbsd.org/OpenBSD-current/man4/etherip.4) Ethernet tunneling (RFC 3378) interface
+  - New [`pair`](http://man.openbsd.org/OpenBSD-current/man4/pair.4) Ethernet encapsulation interface
+  - New [EIGRP](http://man.openbsd.org/OpenBSD-current/man5/eigrpd.conf.5) routing daemon
+  - IPv6 support for pflow (NetFlow) transport
+  - IKEv2 interoperability with OS X El Capitan
+  - Support for new hardware, including network adapters from Intel and Realtek
 - **`Imp`** Ability to enable/disable clustering (sasyncd) without restarting IKE daemons
 - **`Bug`** Prevent SIGPIPE when doing cleartext IKE packet capture in `isakmpd`
 - **`Dep`** Moved [`ikev2`](http://man.openbsd.org/OpenBSD-current/man5/iked.conf.5) to separate `ike {` context for more accurate validation
@@ -50,13 +57,13 @@ Released on 2016-04-25
 ## 3.6
 Released on 2015-11-20
 - **`New`** Based on [OpenBSD 5.8](http://www.openbsd.org/58.html)
- - New MPLS pseudowire driver [`mpw`](http://www.openbsd.org/cgi-bin/man.cgi/OpenBSD-current/man4/mpw.4?query=mpw&amp;sec=4)
- - Many improvements to [BGP](http://securityrouter.org/wiki/BGP), [OSPF](http://securityrouter.org/wiki/OSPF) and LDP (MPLS)
- - The same network range can now be assigned to multiple interfaces
- - MTU of VLAN devices can now be set independently from the parent interface's MTU
- - Jumbo frames on PC Engines' [APU](http://www.pcengines.ch/apu.htm) and Halon's [HSR-603](http://securityrouter.org/wiki/File:Hsr-603.png)
- - Support for the NX bit on i386 for better W^X enforcement
- - Support for new hardware, and improved network drivers
+  - New MPLS pseudowire driver [`mpw`](http://www.openbsd.org/cgi-bin/man.cgi/OpenBSD-current/man4/mpw.4?query=mpw&amp;sec=4)
+  - Many improvements to [BGP](http://securityrouter.org/wiki/BGP), [OSPF](http://securityrouter.org/wiki/OSPF) and LDP (MPLS)
+  - The same network range can now be assigned to multiple interfaces
+  - MTU of VLAN devices can now be set independently from the parent interface's MTU
+  - Jumbo frames on PC Engines' [APU](http://www.pcengines.ch/apu.htm) and Halon's [HSR-603](http://securityrouter.org/wiki/File:Hsr-603.png)
+  - Support for the NX bit on i386 for better W^X enforcement
+  - Support for new hardware, and improved network drivers
 - **`New`** [VPLS](https://github.com/rwestphal/openbsd-ldpd/wiki/VPLS-basic-test-setup) (layer 2) MPLS support
 - **`New`** Interface [route priority](http://securityrouter.org/wiki/Route_priority)
 - **`Imp`** Uses `AUTOCONF6` for [router solicitation](http://securityrouter.org/wiki/IPv6#DHCPv6_client_and_router_solicitation) instead of `rtsold`
@@ -71,10 +78,10 @@ Released on 2015-07-30
 ## 3.5
 Released on 2015-05-27
 - **`New`** Based on [OpenBSD 5.7](http://www.openbsd.org/57.html) with many improvements, such as
- - The load balancer (relayd) supports source-hash for L3 (redirections) and [SNMP](http://cvsweb.openbsd.org/cgi-bin/cvsweb/~checkout~/src/share/snmp/OPENBSD-RELAYD-MIB.txt?rev=1.1)
- - BIND has been removed, use [unbound](http://securityrouter.org/wiki/DNS_cache) instead
- - nginx has been replaced with OpenBSD's [own httpd](http://www.openbsd.org/papers/httpd-slides-asiabsdcon2015.pdf)
- - Support for new hardware, and improved network drivers
+  - The load balancer (relayd) supports source-hash for L3 (redirections) and [SNMP](http://cvsweb.openbsd.org/cgi-bin/cvsweb/~checkout~/src/share/snmp/OPENBSD-RELAYD-MIB.txt?rev=1.1)
+  - BIND has been removed, use [unbound](http://securityrouter.org/wiki/DNS_cache) instead
+  - nginx has been replaced with OpenBSD's [own httpd](http://www.openbsd.org/papers/httpd-slides-asiabsdcon2015.pdf)
+  - Support for new hardware, and improved network drivers
 - **`Imp`** The firewall page loads faster with many rules
 - **`Imp`** Automatic firewall rule sorting has been replaced by a "Sort" button
 - **`Bug`** Make [clusterd](http://securityrouter.org/wiki/Clustering) and [configure](http://securityrouter.org/wiki/Configure) UTF-8 aware, to prevent corruption of non-ASCII
@@ -100,9 +107,9 @@ Released on 2015-01-12
 ## 3.4
 Released on 2014-12-11
 - **`New`** Based on [OpenBSD 5.6](http://www.openbsd.org/56.html)
- - Includes the [Unbound](http://securityrouter.org/wiki/DNS_cache#Unbound) DNS cache
+  - Includes the [Unbound](http://securityrouter.org/wiki/DNS_cache#Unbound) DNS cache
  - Reverse proxy (`match ... forward to`) support in the [load balancer](http://www.openbsd.org/cgi-bin/man.cgi/OpenBSD-current/man5/relayd.conf.5?query=relayd%2econf)
- - Support for new hardware, including network adapters from Broadcom and Realtek
+  - Support for new hardware, including network adapters from Broadcom and Realtek
 - **`Imp`** Add [SIP proxy](http://securityrouter.org/wiki/Proxies#SIP_proxy) to interface page
 - **`Imp`** Support searching logs larger than 2 GB
 - **`Bug`** Fixes regression on load balancer status page
@@ -128,9 +135,9 @@ Released on 2014-05-13
 - **`New`** Based on [OpenBSD 5.5](http://www.openbsd.org/55.html)
 - **`New`** Added [VXLAN](http://sr.wiki.halon.se/wiki/VXLAN) to grammar and web admin
 - **`New`** Supports new hardware such as
- - VMware's VMXNET3 network interfaces and paravirtual SCSI
- - VirtIO's paravirtual SCSI and random number devices
- - Many new Intel platforms and NICs, such as the AES-NI capable Atom [C2000](http://www.intel.com/content/www/us/en/intelligent-systems/rangeley/atom-c2000-product-family-based-platforms-overview.html)
+  - VMware's VMXNET3 network interfaces and paravirtual SCSI
+  - VirtIO's paravirtual SCSI and random number devices
+  - Many new Intel platforms and NICs, such as the AES-NI capable Atom [C2000](http://www.intel.com/content/www/us/en/intelligent-systems/rangeley/atom-c2000-product-family-based-platforms-overview.html)
  - PC Engine's [APU](http://pcengines.ch/apu.htm)
 - **`Imp`** Support copy-pasting directly into web admin's HTML5 terminal
 - **`Imp`** Accurately choose a local IPsec endpoint address to send probe pings from
