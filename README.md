@@ -10,6 +10,7 @@ Unreleased
   - Hyper-V network driver [`hvn`](http://man.openbsd.org/hvn.4)
   - New [`mobileip`](http://man.openbsd.org/OpenBSD-current/man4/mobileip.4) (RFC 2004) tunneling interface
   - Multipoint-to-multipoint mode in [`vxlan`](http://man.openbsd.org/OpenBSD-current/man4/vxlan.4)
+- **`Bug`** Applied [6.1 errata](http://www.openbsd.org/errata61.html) up to #012
 
 ## 6.0-p2
 Released on 2017-04-15
