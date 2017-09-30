@@ -4,6 +4,11 @@ New major versions (for example 3.5 which is based on OpenBSD 5.7) often contain
 
 There is an [RSS feed](https://github.com/halonsecurity/securityrouter.org/releases.atom) available.
 
+## 6.1-p1
+Released on 2017-09-30
+- **`Bug`** Fixed regressions with `vlan` and `trunk` interface configuration
+- **`Bug`** Applied [6.1 errata](http://www.openbsd.org/errata61.html) up to #029
+
 ## 6.1
 Released on 2017-06-22
 - **`New`** Based on [OpenBSD 6.1](http://www.openbsd.org/61.html)
