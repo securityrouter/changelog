@@ -4,6 +4,16 @@ New major versions (for example 3.5 which is based on OpenBSD 5.7) often contain
 
 There is an [RSS feed](https://github.com/halonsecurity/securityrouter.org/releases.atom) available.
 
+## 6.2
+Unreleased
+- **`New`** Based on [OpenBSD 6.2](http://www.openbsd.org/61.html)
+  - Compiled with Clang 4.0.0
+  - Uses new [`slaacd`](http://man.openbsd.org/slaacd) daemon for IPv6 autoconfiguration
+- **`Imp`** Ability to run multiple `bgp` in different routing domains
+- **`Imp`** Support running `dhcp-server` on multiple interfaces in different routing domains
+- **`Imp`** Support `dhcp6-client` on `pppoe` interfaces
+- **`Bug`** Fix regression since 6.1 where `dhcpd` would log to `stderr` instead of syslog
+
 ## 6.1-p1
 Released on 2017-09-30
 - **`Bug`** Fixed regressions with `vlan` and `trunk` interface configuration
