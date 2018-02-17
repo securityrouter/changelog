@@ -12,6 +12,7 @@ Unreleased
 - **`Imp`** Ability to run multiple `bgp` in different routing domains
 - **`Imp`** Support running `dhcp-server` on multiple interfaces in different routing domains
 - **`Imp`** Support `dhcp6-client` on `pppoe` interfaces
+- **`Bug`** Fix bug where `pppoe` interface's 0.0.0.2 route would always be in routing table 0
 - **`Bug`** Fix regression since 6.1 where `dhcpd` would log to `stderr` instead of syslog
 
 ## 6.1-p1
