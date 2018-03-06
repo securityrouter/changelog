@@ -7,11 +7,14 @@ There is an [RSS feed](https://github.com/halonsecurity/securityrouter.org/relea
 ## 6.2
 Unreleased
 - **`New`** Based on [OpenBSD 6.2](http://www.openbsd.org/61.html)
-  - Compiled with Clang 4.0.0
+  - OpenBSD is compiled with Clang 4.0.0
+  - Support for Hyper-V StorVSC
+  - Improved network performance thanks to less locking
   - Uses new [`slaacd`](http://man.openbsd.org/slaacd) daemon for IPv6 autoconfiguration
 - **`Imp`** Ability to run multiple `bgp` in different routing domains
 - **`Imp`** Support running `dhcp-server` on multiple interfaces in different routing domains
 - **`Imp`** Support `dhcp6-client` on `pppoe` interfaces
+- **`Imp`** Support `pppoe` interfaces on `vlan` interfaces
 - **`Bug`** Fix bug where `pppoe` interface's 0.0.0.2 route would always be in routing table 0
 - **`Bug`** Fix regression since 6.1 where `dhcpd` would log to `stderr` instead of syslog
 
