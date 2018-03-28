@@ -14,8 +14,10 @@ Unreleased
 - **`Imp`** Ability to run multiple `bgp` in different routing domains
 - **`Imp`** Support running `dhcp-server` on multiple interfaces in different routing domains
 - **`Imp`** Support `dhcp6-client` on `pppoe` interfaces
+- **`Imp`** Support routing domains on `dhcp6-client` and `dhcp6-server`
 - **`Imp`** Support `pppoe` interfaces on `vlan` interfaces
 - **`Bug`** Fix bug where `pppoe` interface's 0.0.0.2 route would always be in routing table 0
+- **`Bug`** Fix regression since 3.6 where [router solicitation](http://securityrouter.org/wiki/IPv6#DHCPv6_client_and_router_solicitation) always enabled IA-NA
 - **`Bug`** Fix regression since 6.1 where `dhcpd` would log to `stderr` instead of syslog
 
 ## 6.1-p1
