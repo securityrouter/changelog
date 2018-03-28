@@ -5,7 +5,7 @@ New major versions (for example 3.5 which is based on OpenBSD 5.7) often contain
 There is an [RSS feed](https://github.com/halonsecurity/securityrouter.org/releases.atom) available.
 
 ## 6.2
-Unreleased
+Released on 2018-03-28
 - **`New`** Based on [OpenBSD 6.2](http://www.openbsd.org/61.html)
   - OpenBSD is compiled with Clang 4.0.0
   - Support for Hyper-V StorVSC
