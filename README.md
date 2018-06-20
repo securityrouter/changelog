@@ -4,9 +4,24 @@ New major versions (for example 3.5 which is based on OpenBSD 5.7) often contain
 
 There is an [RSS feed](https://github.com/halonsecurity/securityrouter.org/releases.atom) available.
 
+
+## 6.3
+Unreleased
+- **`New`** Based on [OpenBSD 6.3](http://www.openbsd.org/63.html)
+  - Improved network performance thanks to less locking
+  - New [`syncookies`](https://man.openbsd.org/pf.conf.5) option in firewall
+  - Support for Intel Cannon Lake and Ice Lake integrated Ethernet
+  - New [`efi`](https://man.openbsd.org/efi.4) driver for EFI runtime services
+  - Mitigation for Meltdown vulnerability for Intel CPUs
+- **`Imp`** Compiled with Clang 5.0.1
+- **`Imp`** Support for [`syspatch`](https://securityrouter.org/wiki/Update) and [`fw_update`](https://man.openbsd.org/fw_update)
+- **`Imp`** Reordering firewall rules in web administration
+- **`Bug`** Fix bug where `dhcp6-*` didn't log properly
+- **`Bug`** Fix regression since 6.2 where some driver firmware wasn't loaded
+
 ## 6.2
 Released on 2018-03-28
-- **`New`** Based on [OpenBSD 6.2](http://www.openbsd.org/61.html)
+- **`New`** Based on [OpenBSD 6.2](http://www.openbsd.org/62.html)
   - OpenBSD is compiled with Clang 4.0.0
   - Support for Hyper-V StorVSC
   - Improved network performance thanks to less locking
