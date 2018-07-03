@@ -17,6 +17,7 @@ Unreleased
 - **`Imp`** Support for [`syspatch`](https://securityrouter.org/wiki/Update) and [`fw_update`](https://man.openbsd.org/fw_update)
 - **`Imp`** Reordering firewall rules in web administration
 - **`Bug`** Fix bug where `dhcp6-*` didn't log properly
+- **`Bug`** Fix bug in web administration with DHCP reserved hosts
 - **`Bug`** Fix regression since 6.2 where some driver firmware wasn't loaded
 
 ## 6.2
