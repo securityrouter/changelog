@@ -6,7 +6,7 @@ There is an [RSS feed](https://github.com/securityrouter/changelog/releases.atom
 
 
 ## 6.3
-Unreleased
+Released on 2018-07-04
 - **`New`** Based on [OpenBSD 6.3](http://www.openbsd.org/63.html)
   - Improved network performance thanks to less locking
   - New [`syncookies`](https://man.openbsd.org/pf.conf.5) option in firewall
