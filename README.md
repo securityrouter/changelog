@@ -4,6 +4,9 @@ New major versions can contain configuration syntax changes which might render a
 
 There is an [RSS feed](https://github.com/securityrouter/changelog/releases.atom) available.
 
+## 6.3-p1
+Released on 2018-08-23
+- **`Bug`** Applied [6.3 errata](http://www.openbsd.org/errata63.html) up to #016
 
 ## 6.3
 Released on 2018-07-04
