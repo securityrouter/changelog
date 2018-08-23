@@ -6,7 +6,7 @@ There is an [RSS feed](https://github.com/securityrouter/changelog/releases.atom
 
 ## 6.3-p1
 Released on 2018-08-23
-- **`Bug`** Applied [6.3 errata](http://www.openbsd.org/errata63.html) up to #016
+- **`Bug`** Applied [6.3 errata](http://www.openbsd.org/errata63.html) up to #018
 
 ## 6.3
 Released on 2018-07-04
