@@ -4,6 +4,14 @@ New major versions can contain configuration syntax changes which might render a
 
 There is an [RSS feed](https://github.com/securityrouter/changelog/releases.atom) available.
 
+## 6.4
+Unreleased
+- **`New`** Based on [OpenBSD 6.4](http://www.openbsd.org/64.html)
+  - Support for Broadcom BCM573/4xx and Microchip USB 3.0 Ethernet via [`bnxt`](https://man.openbsd.org/bnxt) and `mue`
+  - New [`rad`](https://man.openbsd.org/rad.8) daemon for IPv6 Router Advertisement that replaces KAME `rtadvd`
+- **`Imp`** Compiled with Clang 6.0.0
+- **`Dep`** The default BGP filter action was changed from allow to deny
+
 ## 6.3-p1
 Released on 2018-08-23
 - **`Bug`** Applied [6.3 errata](http://www.openbsd.org/errata63.html) up to #018
