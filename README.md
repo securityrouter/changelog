@@ -9,7 +9,9 @@ Unreleased
 - **`New`** Based on [OpenBSD 6.4](http://www.openbsd.org/64.html)
   - Support for Broadcom BCM573/4xx and Microchip USB 3.0 Ethernet via [`bnxt`](https://man.openbsd.org/bnxt) and `mue`
   - New [`rad`](https://man.openbsd.org/rad.8) daemon for IPv6 Router Advertisement that replaces KAME `rtadvd`
+- **`Imp`** Support for new LACP options `mode passive` and `timeout fast` 
 - **`Imp`** Compiled with Clang 6.0.0
+- **`Imp`** Added new Diffie–Hellman (DH) to IKE IPsec page
 - **`Dep`** The default BGP filter action was changed from allow to deny
 
 ## 6.3-p1
