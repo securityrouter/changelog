@@ -5,7 +5,7 @@ New major versions can contain configuration syntax changes which might render a
 There is an [RSS feed](https://github.com/securityrouter/changelog/releases.atom) available.
 
 ## 6.4
-Unreleased
+Released on 2019-01-07
 - **`New`** Based on [OpenBSD 6.4](http://www.openbsd.org/64.html)
   - Support for Broadcom BCM573/4xx and Microchip USB 3.0 Ethernet via [`bnxt`](https://man.openbsd.org/bnxt) and `mue`
   - New [`rad`](https://man.openbsd.org/rad.8) daemon for IPv6 Router Advertisement that replaces KAME `rtadvd`
