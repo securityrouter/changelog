@@ -4,6 +4,13 @@ New major versions can contain configuration syntax changes which might render a
 
 There is an [RSS feed](https://github.com/securityrouter/changelog/releases.atom) available.
 
+## 6.5
+Unreleased
+- **`New`** Based on [OpenBSD 6.5](http://www.openbsd.org/65.html)
+  - Support for Intel Ethernet 700 series via [`ixl`](https://man.openbsd.org/ixl.4)
+- **`Imp`** Compiled with Clang 7.0.1
+- **`Imp`** Web administration now uses PHP 7.3
+
 ## 6.4
 Released on 2019-01-07
 - **`New`** Based on [OpenBSD 6.4](http://www.openbsd.org/64.html)
