@@ -6,6 +6,11 @@ If you need to rollback you can [choose version](https://buy.securityrouter.org/
 
 There is an [RSS feed](https://github.com/securityrouter/changelog/releases.atom) available.
 
+
+## 6.6-p1
+Unreleased
+- **`Bug`** Fix regression since 6.6 with multiple VLAN interfaces
+
 ## 6.6
 Release on 2019-12-16
 - **`New`** Based on [OpenBSD 6.6](http://www.openbsd.org/65.html)
